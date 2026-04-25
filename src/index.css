@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Merriweather:opsz,wght@18..144,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:opsz,wght@18..144,600&family=Montserrat&display=swap');
 
 :root {
   --text: #6b6375;
@@ -15,7 +15,7 @@
 
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
   --heading: 'Merriweather', 'Segoe UI', Roboto, sans-serif;
-  --paragraph: 'Fira Code', sans-serif;
+  --paragraph: 'Montserrat', sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);
@@ -99,6 +99,7 @@ h2 {
 
 p {
   font-family: var(--paragraph);
+  font-size: 18px;
   margin: 0;
 }
 
