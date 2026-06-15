@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Montserrat:wght@500&display=swap');
 
 :root {
   --text: #303030;
@@ -14,7 +14,7 @@
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: 'Lexend', 'Segoe UI', Roboto, sans-serif;
+  --heading: 'Quicksand', 'Segoe UI', Roboto, sans-serif;
   --paragraph: 'Montserrat', sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
@@ -73,7 +73,7 @@ body {
 
 h1, h2 {
   font-family: var(--heading);
-  font-weight: 500;
+  font-weight: 600;
   color: var(--text-h);
 }
 
