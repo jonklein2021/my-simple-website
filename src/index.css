@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:opsz,wght@18..144,600&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Montserrat:wght@500&display=swap');
 
 :root {
-  --text: #6b6375;
+  --text: #303030;
   --text-h: #08060d;
   --bg: #f2f2f2;
   --border: #e5e4e7;
@@ -14,7 +14,7 @@
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: 'Merriweather', 'Segoe UI', Roboto, sans-serif;
+  --heading: 'Lexend', 'Segoe UI', Roboto, sans-serif;
   --paragraph: 'Montserrat', sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
@@ -57,10 +57,10 @@
 
 body {
   margin: 0;
+  background-color: #F0F0F0;
 }
 
 #root {
-  width: 1126px;
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -78,7 +78,7 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 56px;
+  font-size: 42px;
   letter-spacing: -1.68px;
   margin: 32px 0;
   @media (max-width: 1024px) {

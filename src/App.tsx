@@ -1,26 +1,28 @@
 import './App.css'
 
 export default function App() {
-  const omscsLink = "https://omscs.gatech.edu/";
-
   return (
     <>
       <div className="main">
-        <div className="left">
-          <img src="/budder.jpg" alt="Budder and me :)" />
-        </div>
-        <div className="right">
-          <h1>Jon Klein</h1>
+        <h1>Jon Klein</h1>
+        <div className='sections'>
+          <img src="/budder_portrait.jpg" alt="Budder and me :)" className='profile' />
           <p>
-            I'm a software engineer with experience across full-stack development,
-            high-performance computing, distributed systems, and more. I graduated
-            from Lehigh University in May 2025 with my Bachelors in Computer Science
-            and Math began working full-time at Amazon shortly after that, where I
-            worked in their ads organization as an SDE until the end of 2025. Now, I
-            work at Cimpress as a software engineer, where I maintain core components
-            of VistaPrint's manufacturing software. I'm also an incoming
-            Master's student in Georgia Tech's <a href={omscsLink}>OMSCS program</a>,
-            where I will study computer systems and high-performance computing.
+            Hello, I'm Jon! I'm a Senior Software Engineer at Cimpress, the parent company of VistaPrint. I work
+            on everything from full-stack development to DevOps to infrastructure. Previously, I worked
+            at Amazon's ads as an SDE.
+          </p>
+          <p>
+            I did my undergrad at Lehigh University, where I studied Computer Science and Math through <a href="https://ideas.lehigh.edu/">the IDEAS program</a>.
+            During my time there, I immersed myself in a variety of computer systems research projects, spanning GPU programming, concurrent data structures, and
+            numerical methods.
+          </p>
+          <p>
+            I'm also an incoming Master's student in Georgia Tech's <a href="https://omscs.gatech.edu/">OMSCS program</a>, where I plan to dive deeper into computer
+            systems, high-performance computing, and machine learning.
+          </p>
+          <p>
+            Outside of work, I enjoy hiking, <a href="https://en.wikipedia.org/wiki/Calisthenics">calisthenics</a>, and <a href="https://www.speedsolving.com/wiki/index.php/Speedcubing">twisty puzzles</a>.
           </p>
         </div>
       </div>
