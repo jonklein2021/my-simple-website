@@ -8,7 +8,7 @@ export default function App() {
         <div className='sections'>
           <img src="/budder_portrait.jpg" alt="Budder and me :)" className='profile' />
           <p>
-            Hello, I'm Jon! I'm a Senior Software Engineer at <a href="https://cimpress.com/">Cimpress</a>, the parent company of <a href="https://www.vistaprint.com/">VistaPrint</a>.
+            Hello, I'm Jon! I'm a Software Engineer at <a href="https://cimpress.com/">Cimpress</a>, the parent company of <a href="https://www.vistaprint.com/">VistaPrint</a>.
             I work on everything from full-stack development to DevOps to infrastructure. Previously, I worked at Amazon as an SDE in their ads organization.
           </p>
           <p>
@@ -17,8 +17,7 @@ export default function App() {
             numerical methods.
           </p>
           <p>
-            I'm also an Master's student in Georgia Tech's <a href="https://omscs.gatech.edu/">OMSCS program</a>, where I plan to dive deeper into computer
-            systems, high-performance computing, and machine learning.
+            I'm also an Master's student in Georgia Tech's <a href="https://omscs.gatech.edu/">OMSCS program</a>, where I plan to dive deeper into high-performance computing and machine learning.
           </p>
           <p>
             Outside of work, I enjoy <a href="https://en.wikipedia.org/wiki/Calisthenics">calisthenics</a>, <a href="https://www.speedsolving.com/wiki/index.php/Speedcubing">speedcubing</a>,
