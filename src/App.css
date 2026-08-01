@@ -1,36 +1,47 @@
-.main { 
-  position: absolute;
-  z-index: 1;
-  width: 1024px;
-  height: 100%;
+.main {
+    position: absolute;
+    z-index: 1;
+    max-width: 930px;
+    margin: 0 2rem;
+    height: 100%;
 
-  display: flex;
-  flex-direction: column;
-  align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 
-  background-color: #F2F2F2;
+    background-color: #F2F2F2;
 
-  @media screen and (max-width: 768px) {
-    width: 100%;
-    padding: 10px;
-  }
+    @media screen and (max-width: 576px) {
+        padding: 10px;
+        margin: 0 2rem;
+    }
 }
 
 .profile {
-  width: 30%;
-  height: auto;
+    width: 25%;
+    height: auto;
 
-  float: left;
-  overflow: hidden;
-  margin-right: 1rem;
+    float: left;
+    overflow: hidden;
+    margin-right: 1rem;
+
+    @media screen and (max-width: 576px) {
+        width: 100%;
+        margin: 10px;
+        float: none;
+    }
+}
+
+.headings {
+    text-align: left;
 }
 
 h1 {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 p {
-  text-align: left;
-  line-height: 1.5;
-  margin: 1rem 0;
+    text-align: left;
+    line-height: 1.5;
+    margin: 1rem 0;
 }
