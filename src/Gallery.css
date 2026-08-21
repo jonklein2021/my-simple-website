@@ -1,0 +1,70 @@
+.gallery>h2 {
+    text-align: left;
+}
+
+.collage-container {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(200px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+    gap: 5px;
+    padding: 5px;
+}
+
+.collage-item {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Forces images to fill space without distortion */
+.collage-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.collage-item img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/* 1x1 tile */
+.collage-item.small {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+/* 1x2 tile */
+.collage-item.wide {
+    grid-column: span 2;
+}
+
+/* 2x1 tile */
+.collage-item.tall {
+    grid-row: span 2;
+}
+
+/* 2x2 tile */
+.collage-item.big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    z-index: 1000;
+}
+
+.modal-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    cursor: default;
+}
