@@ -69,6 +69,30 @@
     grid-row: span 2;
 }
 
+/* .masonry-container { */
+/*   column-count: 3; */
+/*   column-gap: 12px; */
+/*   padding: 12px; */
+/* } */
+/**/
+/* .masonry-item { */
+/*   break-inside: avoid; */
+/*   margin-bottom: 12px; */
+/* } */
+/**/
+/* .masonry-item img { */
+/*   width: 100%; */
+/*   height: auto; */
+/*   display: block; */
+/*   border-radius: 8px; */
+/* } */
+/**/
+/* @media (max-width: 768px) { */
+/*   .masonry-container { */
+/*     column-count: 1; */
+/*   } */
+/* } */
+
 .modal-overlay {
     position: fixed;
     inset: 0;

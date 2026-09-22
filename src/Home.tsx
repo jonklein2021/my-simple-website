@@ -40,8 +40,7 @@ export default function App() {
           <p>
             I'm also an Master's student in Georgia Tech's{" "}
             <a href="https://omscs.gatech.edu/">OMSCS program</a>, where I'm
-            diving deeper into high-performance computing, machine learning, and
-            other topics.
+            diving deeper into high-performance computing and machine learning.
           </p>
           <p>
             Outside of work, I enjoy{" "}
@@ -49,8 +48,8 @@ export default function App() {
               calisthenics
             </a>
             ,{" "}
-            <a href="https://www.speedsolving.com/wiki/index.php/Speedcubing">
-              speedcubing
+            <a href="https://www.investopedia.com/articles/active-trading/101014/basics-algorithmic-trading-concepts-and-examples.asp">
+              algorithmic trading
             </a>
             , and <Link to="/gallery">much more</Link>!
           </p>
